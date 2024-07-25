@@ -1,0 +1,641 @@
+@media (min-width: 1200px) {
+  .page-wrapper {
+    .page-content {
+      max-width: 90vw;
+    }
+  }
+
+  .container {
+    max-width: 90vw;
+  }
+}
+
+.dropdown {
+  .dropdown-toggle {
+    &.dropdown-toggle-split {
+      &::after {
+        height: 10px !important;
+        background-size: contain !important;
+        transform: translate(1.1);
+      }
+    }
+  }
+}
+
+.requird_field{
+  // padding: 0 2px;
+  color: red;
+}
+
+@media (max-width: 1366px) {
+  .page-wrapper {
+    .page-content {
+      max-width: 1280px;
+      padding: 0.7rem 0 !important;
+
+      .btn-primary {
+
+        height: 35px !important;
+        line-height: 12px;
+        font-size: 12px;
+      }
+
+      .btn-outline-primary {
+        height: 34px;
+        font-size: 12px;
+      }
+      .btn-outline-primary-report {
+        height: 30px;
+        font-size: 12px;
+      }
+      .btn-red-out-line {
+        height: 30px;
+        line-height: 16px;
+      }
+
+      .btn-yellow-out-line {
+        height: 30px;
+        line-height: 16px;
+      }
+
+      .no-data-section {
+        .no-data-heading-message {
+          font-size: 14px;
+        }
+
+        .no-data-message {
+          font-size: 12px;
+        }
+      }
+
+      .page-header-common {
+        .breadcums {
+          .home-link {
+            padding-right: 4px;
+
+            img {
+              height: 20px;
+              width: 20px;
+            }
+          }
+
+          .breadcrumb-1 {
+            height: 8px;
+            width: 10px;
+          }
+
+          .breadcums-title {
+            font-size: 12px;
+          }
+        }
+      }
+
+      .listingSearch {
+        .input-group-text {
+          height: 30px;
+          padding: 0.469rem 0.363rem;
+
+          img {
+            height: 18px;
+            width: 18px;
+          }
+        }
+
+        input {
+          width: 50% !important;
+          height: 30px;
+          font-size: 12px;
+        }
+      }
+
+      .dropdown {
+        .dropdown-toggle {
+          &.dropdown-toggle-split {
+            &::after {
+              height: 8px !important;
+              background-size: contain !important;
+            }
+          }
+
+          &::after {
+            height: 10px;
+            background-size: 10px 10px;
+          }
+        }
+
+        .dropdown-menu {
+          padding: 3px;
+          min-width: 130px;
+          font-size: 12px;
+
+          .dropdown-item {
+            font-size: 12px;
+            padding: 2px 4px !important;
+            min-width: 130px;
+          }
+
+          .form-check {
+            margin-bottom: 0px;
+            min-height: auto;
+
+            .form-check-input {
+              height: 14px;
+              width: 14px;
+
+              &::after {
+                height: 6px;
+                width: 6px;
+              }
+            }
+          }
+        }
+      }
+
+      .filterSorting {
+        .sorting-section {
+          .dropdown-menu {
+            .ps-3 {
+              padding-left: 0.5rem !important;
+            }
+
+            .sortMenufooter {
+              padding: 5px 8px 5px 8px;
+
+              img {
+                height: 14px;
+                width: 14px;
+              }
+            }
+          }
+        }
+
+        .btn-success {
+          img {
+            padding: 1px;
+          }
+        }
+      }
+
+      .filterBox {
+        margin-right: 8px;
+        margin-bottom: 5px;
+
+        .custom-select {
+          height: 28px !important;
+
+          .btn {
+            height: 28px !important;
+            padding: 5px 8px;
+          }
+        }
+      }
+
+      .clearFilter {
+        font-size: 12px;
+      }
+
+      .btn-success {
+        height: 30px;
+        font-size: 12px;
+        padding: 0px 15px !important;
+
+        img {
+          padding: 3px;
+        }
+      }
+
+      .custom-select {
+        height: 30px;
+        font-size: 12px;
+
+        .btn {}
+      }
+
+      .table {
+        font-size: 12px;
+
+        thead {
+          th {
+            font-size: 12px;
+          }
+        }
+
+        tbody {
+          tr {
+            td {
+              padding-top: 5px !important;
+              padding-bottom: 5px !important;
+            }
+          }
+        }
+
+        .form-check {
+          // height: 10px;
+          min-height: auto;
+          margin-bottom: 0px;
+        }
+      }
+
+      .pagination-info {
+        font-size: 12px;
+      }
+
+      .pagination {
+        .page-item {
+          .page-link {
+            height: 30px;
+            padding: 6px 10px;
+            font-size: 12px;
+          }
+
+          &.pt-3 {
+            padding-top: 0.5rem !important;
+          }
+        }
+      }
+
+      .common-form-header {
+        padding: 1.2rem !important;
+        margin: 0 4rem 0 4rem;
+        .custom-header {
+          font-size: 16px !important;
+          padding: 5px 0px !important;
+        }
+
+        .btn {
+          padding: 0px 10px !important;
+          margin-bottom: auto;
+
+          img {
+            height: 14px;
+            width: 14px;
+          }
+        }
+      }
+
+      .common-form-bodyclass {
+        font-size: 12px;
+
+        .common-form-body-label {
+          font-size: 12px;
+        }
+
+        .input-group {
+
+          .form-control,
+          .form-select {
+            font-size: 12px;
+            height: 30px !important;
+
+            &.textarea-input {
+              height: auto !important;
+            }
+          }
+
+          .form-select:disabled {
+            padding-top: 5px;
+          }
+        }
+      }
+
+      .nav-tabs {
+        .nav-item {
+          .nav-link {
+            font-size: 12px;
+          }
+        }
+      }
+
+      .btn-primary-out-line,
+      .import-btn {
+        font-size: 12px;
+        height: 30px;
+        padding: 5px 15px;
+      }
+
+      .custom_tabs_mk {
+        margin-bottom: 0.1rem;
+      }
+
+      .download-button {
+        .btn {
+          padding-left: 1.7rem;
+
+          &::after {
+            height: 15px !important;
+            background-size: 15px 15px;
+            width: 14px !important;
+            top: 40%;
+          }
+        }
+      }
+    }
+  }
+
+  .modal {
+    // z-index: 9999;
+
+    .modal-header {
+      .custom-header {
+        font-size: 16px !important;
+      }
+
+      .btn-close {
+        font-size: 14px;
+      }
+    }
+
+    .modal-content {
+      .modal-header {
+        padding: 8px;
+        font-size: 16px !important;
+        padding-right: 20px;
+      }
+
+      #removeButton {
+        font-size: 12px;
+        width: 38px;
+        height: 31px;
+
+        img {
+          width: 12px;
+          height: 20px;
+        }
+      }
+
+      #addButton {
+        font-size: 12px;
+      }
+
+      #clearButton {
+        font-size: 12px;
+      }
+
+      .modal-footer {
+        padding: 8px;
+        padding-right: 20px;
+      }
+
+      .cancel-button,
+      .btn-primary {
+        height: 30px;
+        font-size: 12px;
+        padding: 0px 15px !important;
+      }
+
+      .custom-select {
+        display: flex;
+        align-items: center;
+
+        div,
+        button,
+        input {
+          font-size: 12px !important;
+        }
+
+        &.btn-primary {
+          padding: 0px !important;
+        }
+
+        .form-control {
+          padding: 0.32rem 0.8rem;
+        }
+      }
+
+      .search-button {
+        align-items: start;
+      }
+    }
+
+    .modal-body {
+      .common-form-bodyclass {
+        font-size: 12px;
+
+        .common-form-body-label {
+          font-size: 12px;
+        }
+
+        .input-group {
+
+          .form-control,
+          .form-select {
+            font-size: 12px;
+            height: 30px !important;
+
+            &.textarea-input {
+              height: auto !important;
+            }
+          }
+
+          .form-select:disabled {
+            padding-top: 5px;
+          }
+        }
+      }
+
+      .btn-success {
+        height: 30px;
+        font-size: 12px;
+        padding: 0px 15px !important;
+
+        img {
+          padding: 1px;
+        }
+      }
+
+      .sorting-section {
+        .dropdown-menu {
+          padding: 3px;
+          min-width: 170px;
+          font-size: 12px;
+
+          .dropdown-item {
+            font-size: 12px;
+            // padding: 2px 4px !important;
+            min-width: 130px;
+          }
+
+          .form-check {
+            margin-bottom: 0px;
+            min-height: auto;
+
+            .form-check-input {
+              height: 14px;
+              width: 14px;
+
+              &::after {
+                height: 6px;
+                width: 6px;
+              }
+            }
+          }
+        }
+      }
+
+      .listingSearch {
+        .input-group-text {
+          height: 30px;
+          padding: 0.469rem 0.363rem;
+
+          img {
+            height: 18px;
+            width: 18px;
+          }
+        }
+
+        input {
+          width: 50% !important;
+          height: 30px;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  .modal-dialog {
+    .modal-content {
+      .modal-body {
+        .common-form-bodyclass {
+          .address-header {
+            font-size: 14px !important;
+          }
+
+          .address-details {
+            label {
+              font-size: 12px !important;
+            }
+          }
+        }
+
+        .common-form-header {
+          margin: 2rem 6rem 0 6rem !important;
+          h4 {
+            font-size: 16px !important;
+          }
+        }
+      }
+    }
+  }
+
+  .container {
+    max-width: 1280px;
+  }
+
+  .custom-split-button {
+    .dropdown-toggle-split {
+      &::after {
+        height: 8px !important;
+        background-size: cover !important;
+        right: 4px !important;
+      }
+    }
+  }
+
+  .role-master-form {
+    h4 {
+      font-size: 16px;
+    }
+
+    .close-button {
+      font-size: 12px;
+
+      img {
+        width: 16px !important;
+        height: 16px !important;
+      }
+    }
+
+    .top-input-div {
+      label {
+        font-size: 12px;
+      }
+
+      .input-group,
+      .input-container {
+        height: 30px;
+      }
+
+      input {
+        height: 30px !important;
+        font-size: 12px;
+      }
+    }
+
+    .permission-header-text {
+      font-size: 14px !important;
+      padding: 8px 10px !important;
+    }
+
+    .nav-pills {
+      .nav-item {
+        font-size: 12px !important;
+      }
+    }
+
+    .tab-content {
+      h4 {
+        font-size: 14px;
+      }
+
+      .form-check {
+        font-size: 12px;
+      }
+    }
+
+    .cancel-button {
+      height: 30px;
+      font-size: 12px;
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .page-wrapper {
+    .page-content {
+      max-width: 1320px;
+      .btn-primary-out-line,
+      .import-btn {
+        font-size: 12px;
+        height: 35px;
+        padding: 5px 15px;
+      }
+    }
+  }
+
+  .container {
+    max-width: 1320px;
+  }
+ 
+
+}
+
+@media (min-width: 1680px) {
+  .page-wrapper {
+    .page-content {
+      max-width: 1550px;
+    }
+  }
+
+  .container {
+    max-width: 1550px;
+  }
+}
+
+@media (max-width:640px) {
+  .page-wrapper {
+    .page-content {
+  .common-form-header {
+    padding: 3rem !important;
+    margin: 0 ;
+  }
+}}
+}
+@media (max-width:764px) {
+  .page-wrapper {
+    .page-content {
+  .common-form-header {
+    padding: 3rem !important;
+    margin: 0 ;
+  }
+}}
+}

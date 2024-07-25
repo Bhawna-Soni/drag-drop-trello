@@ -1,0 +1,25 @@
+.imagepreviewmodel {
+  width: 100%;
+  height: 100%;
+
+  .modal-content {
+    justify-content: center;
+    align-items: center;
+    max-height: 50vh;
+    background-color: transparent;
+    border: none;
+    img {
+      // color: transparent;
+      height: auto !important;
+      width: auto !important;
+      max-height: 100%;
+      max-width: 100%;
+    }
+    .closemodelimage {
+      border: none;
+      position: absolute;
+      top: 0;
+      right: -20px;
+    }
+  }
+}

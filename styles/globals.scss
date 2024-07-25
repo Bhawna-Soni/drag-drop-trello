@@ -1,0 +1,84 @@
+@import "./fonts.scss";
+// @import "./themeLayout/style.scss";
+html,
+body{
+  padding: 0;
+  margin: 0;
+  font-family: "Inter";
+  .sidebar {
+    // flex: 1;
+    background-color: rgb(90, 90, 90);
+    // height: calc(100vh - 50px);
+
+    position: sticky;
+    top: 50px;
+}
+.main-wrapper {
+  // display: flex;
+}
+.container-fluid{
+  // margin-top: 0px;
+  // padding: 20px;
+  padding: 0 !important;
+  display: flex;
+  // max-width: 1330px;
+}
+.page-wrapper {
+  flex: 1;
+}
+.page-content {
+  padding: 20px;
+}
+
+.link{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+.sidebarWrappper {
+    padding: 20px;
+    color: rgb(249, 241, 241);
+}
+
+.sidebarMenu {
+    margin-bottom: 10px;
+}
+
+.sidebarTitle {
+    font-size: 15px;
+    color: rgb(240, 240, 240);
+}
+
+.sidebarList {
+    list-style: none;
+    padding: 5px;
+}
+
+.sidebarListItem {
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.sidebarListItem.active,
+.sidebarListItem:hover {
+    background-color: rgb(60, 60, 60);
+}
+
+.sidebarTitleIcons {
+    margin-right: 5px;
+    font-size: 18px !important;
+}
+
+.sidebarIcons {
+    margin-right: 5px;
+    font-size: 20px !important;
+}
+.navbar-container{
+  background-color: greenyellow;
+}
+}

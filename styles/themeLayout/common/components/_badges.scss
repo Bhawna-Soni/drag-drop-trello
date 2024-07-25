@@ -1,0 +1,64 @@
+// Badges
+
+a.badge {
+
+  // for link badges
+  &:hover {
+    color: $white;
+  }
+}
+
+// For Chips
+.chip {
+  border-radius: 15px;
+  padding: 2px 8px;
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  height: 25px;
+
+  &_point {
+    font-size: 22px;
+    line-height: 5px;
+    padding-bottom: 1px;
+
+    &_active {
+      color: #007f5f;
+    }
+
+    &_inactive {
+      color: #d72c0d;
+    }
+  }
+
+  &_status {
+    font-size: 14px;
+    padding-bottom: 1px;
+  }
+
+  &_active {
+    background-color: #baf0da;
+  }
+
+  &_inactive {
+    background-color: #fed3d1;
+  }
+
+  &_warning {
+    background-color: #fff2b9;
+  }
+
+  &_secondary {
+    background-color: #e0e0e0;
+  }
+}
+
+@media (max-width:1366px) {
+  .status-label {
+    font-size: 12px;
+  }
+
+  .chip {
+    height: 22px;
+  }
+}

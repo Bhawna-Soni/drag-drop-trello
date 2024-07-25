@@ -1,0 +1,38 @@
+.pagination {
+  .page-item {
+    transition: 0.9s ease;
+    .page-link {
+      transition: 0.9s ease;
+      svg {
+        width: 18px;
+        height: 18px;
+      }
+    }
+    .active{
+      .page-link{
+        transition: 0.9s ease;
+      }
+    }
+  }
+  &.pagination-separated {
+    .page-item {
+      margin-left: 2px;
+      margin-right: 2px;
+      &:first-child {
+        margin-left: 0;
+      }
+      &:last-child  {
+        margin-right: 0;
+      }
+    }
+  }
+  &.pagination-rounded {
+    .page-item {
+      margin-right: 2px;
+      margin-left: 2px;
+      .page-link {
+        @include border-radius(50px);
+      }
+    }
+  }
+}

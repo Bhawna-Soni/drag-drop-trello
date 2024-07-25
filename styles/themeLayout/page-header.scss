@@ -1,0 +1,24 @@
+.page-header-common{
+    .breadcums{
+        .home-link{
+            padding-right: 6px;
+            img{
+                height: 22px;
+                width: 22px;
+            }
+        }
+        .breadcrumb-1{
+            height: 8px;
+            width: 10px;
+        }
+        .breadcums-title{
+            font-size: 14px;
+            padding-left: 6px;
+            padding-right: 6px;
+            color: #808080;
+            &.active{
+                color: #5556A6;
+            }
+        }
+    }
+}
