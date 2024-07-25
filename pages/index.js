@@ -1,12 +1,15 @@
 import DashboardComponenet from "../Components/dashboardComponent";
 
-export default function Dashboard() {
+
+ function Dashboard() {
   return (
     <>
-      <>
-        <p>pages show</p>
+         <div className="container ">
+          <div className="py-2">Dashboard</div>
+        
         <DashboardComponenet />
-      </>
+    </div>
     </>
   );
 }
+export default Dashboard;

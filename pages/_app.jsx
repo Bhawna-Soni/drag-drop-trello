@@ -1,24 +1,27 @@
 import dynamic from "next/dynamic";
 import "../styles/globals.scss";
-// import Sidebar from "../Components/Sidebar/Sidebar";
-import Layout from "../Components/Layout/Layout";
+import Sidebar from "../Components/Sidebar/Sidebar";
 
-// const Layout = dynamic(() => import("../components/Layout/Layout"), {
-//   ssr: false,
-// });
 
- function App({ Component, pageProps }) {
+const Layout = dynamic(() => import("../Components/Layout/Layout"), {
+  ssr: false,
+});
+
+function App({ Component, pageProps }) {
   return (
     <>
-    
-       
-        <div className="d-flex">
-      {Component &&  <Layout>
-          <Component {...pageProps} />
-        </Layout>}
-        </div>
-    
-       
+      <div className="container-fluid ">
+      <div className="d-flex ">
+        <div className="">
+      <Sidebar />
+      </div>
+        {Component && (
+          <Layout>
+            <Component {...pageProps} />
+          </Layout>
+        )}
+      </div>
+      </div>
     </>
   );
 }
